@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "dfx": "0.11.2",
+  "canisters": {
+    "canister_0": {
+      "main": "src/canister_0/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_1"
+      ]
+    },
+    "canister_1": {
+      "main": "src/canister_1/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_2"
+      ]
+    },
+    "canister_2": {
+      "main": "src/canister_2/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_3"
+      ]
+    },
+    "canister_3": {
+      "main": "src/canister_3/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_4"
+      ]
+    },
+    "canister_4": {
+      "main": "src/canister_4/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_5"
+      ]
+    },
+    "canister_5": {
+      "main": "src/canister_5/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_6"
+      ]
+    },
+    "canister_6": {
+      "main": "src/canister_6/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_7"
+      ]
+    },
+    "canister_7": {
+      "main": "src/canister_7/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_8"
+      ]
+    },
+    "canister_8": {
+      "main": "src/canister_8/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_9"
+      ]
+    },
+    "canister_9": {
+      "main": "src/canister_9/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_10"
+      ]
+    },
+    "canister_10": {
+      "main": "src/canister_10/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_11"
+      ]
+    },
+    "canister_11": {
+      "main": "src/canister_11/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_12"
+      ]
+    },
+    "canister_12": {
+      "main": "src/canister_12/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_13"
+      ]
+    },
+    "canister_13": {
+      "main": "src/canister_13/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_14"
+      ]
+    },
+    "canister_14": {
+      "main": "src/canister_14/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_15"
+      ]
+    },
+    "canister_15": {
+      "main": "src/canister_15/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_16"
+      ]
+    },
+    "canister_16": {
+      "main": "src/canister_16/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_17"
+      ]
+    },
+    "canister_17": {
+      "main": "src/canister_17/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_18"
+      ]
+    },
+    "canister_18": {
+      "main": "src/canister_18/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_19"
+      ]
+    },
+    "canister_19": {
+      "main": "src/canister_19/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_20"
+      ]
+    },
+    "canister_20": {
+      "main": "src/canister_20/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "testnet": {
+      "providers": [],
+      "type": "persistent"
+    }
+  }
+}

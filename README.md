@@ -28,6 +28,7 @@ How
 | Median time per inter-canister call |     ~2.36 ms |      ~30.5 ms |
 | Median inter-canister call rate     | ~423 calls/s | ~32.7 calls/s |
 | Median inner/outer time difference  |    ~5.02 sec |     ~4.51 sec |
+| Analysis Python Notebook            | [ipynb](./testnet/analysis.ipynb) | [ipynb](./mainnet/analysis.ipynb) |
 
 ### Testnet
 
@@ -35,6 +36,7 @@ How
 - Median time per inter-canister call: ~2.36 ms
 - Median inter-canister call rate: ~423 calls/s
 - Median inner/outer time difference: ~5.02 sec
+- [Analysis Python Notebook](./testnet/analysis.ipynb)
 
 ![image](./testnet/image/time_per_call_ms_hist.png)
 ![image](./testnet/image/call_rate_hist.png)
@@ -47,6 +49,7 @@ How
 - Median time per inter-canister call: ~30.5 ms
 - Median inter-canister call rate: ~32.7 calls/s
 - Median inner/outer time difference: ~4.51 sec
+- [Analysis Python Notebook](./mainnet/analysis.ipynb)
 
 ![image](./mainnet/image/time_per_call_ms_hist.png)
 ![image](./mainnet/image/call_rate_hist.png)

@@ -1,0 +1,117 @@
+dfx deploy --network ic                                                                                                   
+
+Deploying all canisters.                                      
+All canisters have already been created.                                                                                    
+Building canisters...                                         
+Installing canisters...                                                                                                                                                                                                                                 
+Installing code for canister canister_0, with canister ID ykx37-caaaa-aaaan-qaxxa-cai                                                                                                                                                                   
+Installing code for canister canister_1, with canister ID ynw5l-pyaaa-aaaan-qaxxq-cai                                                                                                                                                                   
+Installing code for canister canister_2, with canister ID 2qltd-4qaaa-aaaan-qaxya-cai                                                                                                                                                                   
+Installing code for canister canister_3, with canister ID 2xkvx-riaaa-aaaan-qaxyq-cai                                                                                                                                                                   
+Installing code for canister canister_4, with canister ID 26j6l-haaaa-aaaan-qaxza-cai                                                                                                                                                                   
+Deployed canisters.                                           
+URLs:                                                         
+  Backend canister via Candid interface:                                                                                    
+    canister_0: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/?id=ykx37-caaaa-aaaan-qaxxa-cai                                                                                                                                                         
+    canister_1: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/?id=ynw5l-pyaaa-aaaan-qaxxq-cai                                                                                                                                                         
+    canister_2: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/?id=2qltd-4qaaa-aaaan-qaxya-cai                                                                                                                                                         
+    canister_3: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/?id=2xkvx-riaaa-aaaan-qaxyq-cai                                                                                                                                                         
+    canister_4: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/?id=26j6l-haaaa-aaaan-qaxza-cai 
+
+
+BEFORE
+
+Canister status call result for canister_0.                                                                                 
+Status: Running                                               
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai                                                                                                                                                
+Memory allocation: 0                                                                                                        
+Compute allocation: 0                                         
+Freezing threshold: 2_592_000                                                                                                                                                                                                                           
+Memory Size: Nat(449237)                                      
+Balance: 3_893_757_229_979 Cycles                             
+Module hash: 0x4ce70fe5ca8a5ebf07b7b89bd94b3c8ee35c43a2a95c8b9509f68442c7b10e3b                                                                                                                                                                         
+Canister status call result for canister_1.                                                                                 
+Status: Running                                               
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai                                                                                                                                                
+Memory allocation: 0                                                                                                        
+Compute allocation: 0                                         
+Freezing threshold: 2_592_000                                                                                                                                                                                                                           
+Memory Size: Nat(445009)                                      
+Balance: 3_898_382_000_905 Cycles                             
+Module hash: 0x55c0aee407710dd2b6e25427d3765e5690360e8971d1c1af80c513ea4c0f4976                                                                                                                                                                         
+Canister status call result for canister_2.                                                                                 
+Status: Running                                               
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai                                                                                                                                                
+Memory allocation: 0                                                                                                        
+Compute allocation: 0                                         
+Freezing threshold: 2_592_000                                                                                                                                                                                                                           
+Memory Size: Nat(379473)                                      
+Balance: 3_899_488_017_180 Cycles                             
+Module hash: 0x3e3c03d1e68bc75fa4b3dd10bffdddbe4895eb828a4929af2e2d03614f5da774                                                                                                                                                                         
+Canister status call result for canister_3.                                                                                 
+Status: Running                                               
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai                                                                                                                                                
+Memory allocation: 0                                                                                                                                                                                                                                    
+Compute allocation: 0                                         
+Freezing threshold: 2_592_000                                 
+Memory Size: Nat(379473)                                      
+Balance: 3_899_488_017_180 Cycles                             
+Module hash: 0x9a6255001047d900b8992a7c21ae6c3ef14d1b4b202ba5402b9c064abc9e1d54                                                                                                                                                                         
+Canister status call result for canister_4.                                                                                 
+Status: Running                                               
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai                                                                                                                                                
+Memory allocation: 0                                          
+Compute allocation: 0                                         
+Freezing threshold: 2_592_000                                 
+Memory Size: Nat(371093)                                      
+Balance: 3_899_512_178_890 Cycles                             
+Module hash: 0xd5fb86254855c009779a1752a4d3ab4872d932c7d662244713f2b3b5a958f1b9
+
+
+AFTER
+
+Canister status call result for canister_0.
+Status: Running
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai
+Memory allocation: 0
+Compute allocation: 0
+Freezing threshold: 2_592_000
+Memory Size: Nat(449085)
+Balance: 3_689_937_862_595 Cycles
+Module hash: 0x4ce70fe5ca8a5ebf07b7b89bd94b3c8ee35c43a2a95c8b9509f68442c7b10e3b
+Canister status call result for canister_1.
+Status: Running
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai
+Memory allocation: 0
+Compute allocation: 0
+Freezing threshold: 2_592_000
+Memory Size: Nat(445009)
+Balance: 3_653_125_900_909 Cycles
+Module hash: 0x55c0aee407710dd2b6e25427d3765e5690360e8971d1c1af80c513ea4c0f4976
+Canister status call result for canister_2.
+Status: Running
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai
+Memory allocation: 0
+Compute allocation: 0
+Freezing threshold: 2_592_000
+Memory Size: Nat(445009)
+Balance: 3_769_571_403_579 Cycles
+Module hash: 0x3e3c03d1e68bc75fa4b3dd10bffdddbe4895eb828a4929af2e2d03614f5da774
+Canister status call result for canister_3.
+Status: Running
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai
+Memory allocation: 0
+Compute allocation: 0
+Freezing threshold: 2_592_000
+Memory Size: Nat(445009)
+Balance: 3_835_871_627_003 Cycles
+Module hash: 0x9a6255001047d900b8992a7c21ae6c3ef14d1b4b202ba5402b9c064abc9e1d54
+Canister status call result for canister_4.
+Status: Running
+Controllers: 2ctsh-vww2w-aiirg-eaofz-zrqyo-geksr-nc22e-e3lcy-4ewwx-we5lp-zae w64pj-nqaaa-aaaan-qaoma-cai
+Memory allocation: 0
+Compute allocation: 0
+Freezing threshold: 2_592_000
+Memory Size: Nat(436629)
+Balance: 3_882_835_873_392 Cycles
+Module hash: 0xd5fb86254855c009779a1752a4d3ab4872d932c7d662244713f2b3b5a958f1b9

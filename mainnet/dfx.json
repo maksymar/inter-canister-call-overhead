@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "dfx": "0.11.2",
+  "canisters": {
+    "canister_0": {
+      "main": "src/canister_0/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_1"
+      ]
+    },
+    "canister_1": {
+      "main": "src/canister_1/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_2"
+      ]
+    },
+    "canister_2": {
+      "main": "src/canister_2/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_3"
+      ]
+    },
+    "canister_3": {
+      "main": "src/canister_3/main.mo",
+      "type": "motoko",
+      "dependencies": [
+        "canister_4"
+      ]
+    },
+    "canister_4": {
+      "main": "src/canister_4/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "testnet": {
+      "providers": [],
+      "type": "persistent"
+    }
+  }
+}

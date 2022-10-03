@@ -1,0 +1,3 @@
+service : {
+  add: (nat, nat, nat) -> (nat);
+}

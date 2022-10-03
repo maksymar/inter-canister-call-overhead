@@ -1,0 +1,5 @@
+type Time = int;
+service : {
+  compute_iterations: (nat, nat) -> (nat);
+  compute_time: (nat, nat) -> (Time);
+}

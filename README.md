@@ -10,7 +10,7 @@ How
 - Call a chain of canisters with various `depth` in a loop
   - The last canister in the chain does a no-op operation, eg. 1+1
   - Measure `outer_time` –- time outside of `dfx` call
-  - Measure `inner_time` –- time inside the [top level canister](./src/canister_0/main.mo)
+  - Measure `inner_time` –- time inside the top level canister ([testnet](./testnet/src/canister_0/main.mo), [mainnet](./mainnet/src/canister_0/main.mo))
   - Measure `iterations` of the loop
   - Calculate `time_diff` –- inner/outer time difference
   - Calculate `time_per_call_ms` -- time per ICC
@@ -54,8 +54,8 @@ How
 
 ## Notes
 
-- More numbers and charts at [Analysis ipython notebook](./analysis.ipynb)
-- Run experiment with [run_exp.sh](./run_exp.sh), adjust input values before the run
+- More numbers and charts at Analysis ipython notebook `./<folder>/analysis.ipynb`
+- Run experiment with `./<folder>/run_exp.sh`, adjust input values before the run
 
 ### Issues
 
@@ -64,4 +64,3 @@ How
 ## Links
 
 - [Make inter-canister calls](https://internetcomputer.org/docs/current/developer-docs/build/backend/intercanister-calls/)
-- [Analysis ipython notebook](./analysis.ipynb)

@@ -35,12 +35,9 @@ How
 - Median time per inter-canister call: ~2.36 ms
 - Median inter-canister call rate: ~423 calls/s
 - Median inner/outer time difference: ~5.02 sec
-  - `time_diff` is constant accros `inner_time` values
 
 ![image](./testnet/image/time_per_call_ms_hist.png)
-![image](./testnet/image/time_per_call_ms_vs_depth.png)
 ![image](./testnet/image/call_rate_hist.png)
-![image](./testnet/image/call_rate_vs_depth.png)
 ![image](./testnet/image/time_diff_hist.png)
 ![image](./testnet/image/inner_outer_time_diff.png)
 
@@ -50,12 +47,9 @@ How
 - Median time per inter-canister call: ~30.5 ms
 - Median inter-canister call rate: ~32.7 calls/s
 - Median inner/outer time difference: ~4.51 sec
-  - `time_diff` is constant accros `inner_time` values
 
 ![image](./mainnet/image/time_per_call_ms_hist.png)
-![image](./mainnet/image/time_per_call_ms_vs_depth.png)
 ![image](./mainnet/image/call_rate_hist.png)
-![image](./mainnet/image/call_rate_vs_depth.png)
 ![image](./mainnet/image/time_diff_hist.png)
 ![image](./mainnet/image/inner_outer_time_diff.png)
 

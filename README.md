@@ -22,6 +22,13 @@ How
 
 ## Summary
 
+|                                     | testnet      | mainnet       |
+| :---                                | :---:        | :---:         |
+| Maximal inter-canister call depth   |           20 |             4 |
+| Median time per inter-canister call |     ~2.36 ms |      ~30.5 ms |
+| Median inter-canister call rate     | ~423 calls/s | ~32.7 calls/s |
+| Median inner/outer time difference  |    ~5.02 sec |     ~4.51 sec |
+
 ### Testnet
 
 - Maximal inter-canister call depth: 20
